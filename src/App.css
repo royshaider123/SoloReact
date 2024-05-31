@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  width: 80vw;
+  height: 80vh;
+  border: 1px solid #ccc;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.chart-container {
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
